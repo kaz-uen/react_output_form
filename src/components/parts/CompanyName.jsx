@@ -1,4 +1,4 @@
-import styles from './CompanyName.module.scss';
+import styles from './CompanyName.module.css';
 
 export default function CompanyName() {
 
