@@ -1,0 +1,10 @@
+.CompanyName {
+
+  input {
+    width: 420px;
+
+    @include mixin.spLayout {
+      width: 100%;
+    }
+  }
+}

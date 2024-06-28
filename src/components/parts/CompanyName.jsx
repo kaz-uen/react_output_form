@@ -1,9 +1,9 @@
-// import styles from './CompanyName.module.scss';
+import styles from './CompanyName.module.scss';
 
 export default function CompanyName() {
 
   return (
-    <dl>
+    <dl className={styles.CompanyName}>
       <dt>従業員数</dt>
       <dd>
         <input type="text" />
